@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginLeft="50px"
+        android:id="@+id/imageView_nav_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bookmark"/>
+    
+    <TextView
+        android:layout_marginLeft="20px"
+        android:id="@+id/textView_nav_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text item"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+</LinearLayout>
